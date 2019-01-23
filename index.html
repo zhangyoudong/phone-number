@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>如何选取手机号码</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./phone.css">
+    <link rel="stylesheet" href="./rem.css">
+    <link rel="stylesheet" href="./selecNumber.css">
+</head>
+<body>
+    <div class="main">
+        <div class="userSelect">
+                <div class="phone">
+                    <h2>手机号码</h2>
+                    <input type="number" class="phoneNumber">
+                    <button class="phoneCount">计算</button>
+                    <label>总数：<input type="number" class="phoneSum"></label>
+                    <label>多数：<input type="number" class="phoneResult"></label>
+                </div>
+                <div class="rem">
+                    <h2>在线余数计算器</h2>
+                    <h6>被除数：手机号码后四位数字</h6>
+                    <label>被除数：<input type="number" class="dividend"></label>            
+                    <label>除数：<input type="number" class="divisor" value="80" readonly></label>                        
+                    <button class="count">计算</button>                        
+                    <label>商：<input type="number" class="quotient"></label>                    
+                    <label>余数：<input type="number" class="remainder"></label>
+                </div>
+        </div>
+        <div class="explanation">
+
+        </div>
+    </div>
+    
+    <div class="selectNumber">
+        <h2>79选号表</h2>
+        <table class="table81"></table>
+        <h2>手机号码尾号选择表</h2>
+        <table class="tableNumber"></table>
+    </div>
+    <script src="./phone.js"></script>
+    <script src="./rem.js"></script>
+    <script src="./selectNumber.js"></script>
+</body>
+</html>

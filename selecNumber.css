@@ -1,0 +1,28 @@
+.selectNumber {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.selectNumber table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.selectNumber .table81 td {
+    border: 1px solid #ccc;
+    padding: 2px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.selectNumber .tableNumber {
+    display: flex;
+    width: 552px;
+    height: 380px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+.selectNumber .tableNumber td {
+    border: 1px solid #ddd;
+    width: 50px;
+    text-align: center;
+    margin-right: 5px;
+}

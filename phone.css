@@ -1,0 +1,16 @@
+.phone {
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 280px;
+    height: 200px;
+}
+.phone input {
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ccc;
+}
