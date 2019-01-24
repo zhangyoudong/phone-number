@@ -21,5 +21,7 @@ $('.phoneCount').addEventListener('click', function() {
 
     if(result >= 0) {
         $('.phoneResult').value = result
+
+        showMessage(result)
     }
 })

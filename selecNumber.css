@@ -1,6 +1,7 @@
 .selectNumber {
     margin-top: 10px;
     margin-left: 30px;
+    display: flex;
 }
 .selectNumber table {
     margin-top: 10px;
@@ -25,4 +26,18 @@
     width: 50px;
     text-align: center;
     margin-right: 5px;
+}
+
+.selectNumber-right {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.selectNumber-right h5 {
+    background: darkseagreen;
 }

@@ -21,6 +21,7 @@
     outline: none;
     border: none;
     cursor: pointer;
+    background: #aaaaaa;
 }
 .rem input {
     height: 30px;

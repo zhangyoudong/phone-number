@@ -3,9 +3,30 @@
 }
 
 .explanation {
+    padding: 20px;
     margin-top: 58px;
     margin-left: 20px;
     margin-right: 30px;
     border: 1px solid #aaa;
     flex-grow: 1;
+}
+.explanation .explanationNumber {
+    color: red;
+}
+.explanation p {
+    background: darkseagreen;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding: 10px;
+    opacity: .8;
+    border-radius: 4px;
+}
+.explanation p div:first-child {
+    padding: 0px 5px;
+
+}
+.explanation p div:last-child {
+
 }

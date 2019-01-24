@@ -7,11 +7,20 @@ let count = rem.querySelector('.count')
 let quotient = rem.querySelector('.quotient')
 let remainder = rem.querySelector('.remainder')
 
+let explanation = $('.explanation')
+
+
+let remainder_value = 0
 
 let divisor_value = divisor.value
 
 
-count.addEventListener('click', countEvent)
+count.addEventListener('click', () => {
+    countEvent()
+    showMessage(remainder_value)
+})
+
+
 
 function countEvent() {
     let dividend_value = dividend.value
@@ -22,8 +31,9 @@ function countEvent() {
     // console.log(divisor_value)
     let quotient_value = Math.floor(dividend_value / divisor_value)
     // console.log(quotient_value)
-    let remainder_value = dividend_value % divisor_value
+    remainder_value = dividend_value % divisor_value
     // console.log(remainder_value)
     quotient.value = quotient_value
     remainder.value = remainder_value
 }
+
